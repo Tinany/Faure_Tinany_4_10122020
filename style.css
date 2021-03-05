@@ -760,6 +760,7 @@ h4 {
 .bold-link {
     font-weight: 900;
     text-decoration: underline!important;
+    padding-left: 150px;
 }
 
 .bgc-white {
@@ -1039,4 +1040,17 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+blockquote {
+    border-left: none;
+}
+.citation {
+
+    font-size: 20px;
+    font-style: italic;
+}
+
+blockquote footer:before {
+    display: none;
 }
